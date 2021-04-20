@@ -32,7 +32,6 @@ public class EmployeeController {
     }
 
     //get employee by id
-
     @GetMapping("/employees/{id}")
     public ResponseEntity<Employee> getEmployeeeById(
             @PathVariable(value = "id") Long id) throws Exception {
